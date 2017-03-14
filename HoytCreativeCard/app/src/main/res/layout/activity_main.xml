@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    tools:context="com.android.nissen.hoytcreativecard.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hoytcreative"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/qualifications"
+        android:layout_above="@+id/Desc"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="14dp"
+            android:fontFamily="serif"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/Email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNumber"
+            android:textSize="14dp"
+            android:fontFamily="serif"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/Phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hours"
+            android:textSize="14dp"
+            android:fontFamily="serif"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/Hours" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textSize="14dp"
+            android:fontFamily="serif"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/City" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="14dp"
+        android:fontFamily="serif"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/Desc" />
+
+</RelativeLayout>

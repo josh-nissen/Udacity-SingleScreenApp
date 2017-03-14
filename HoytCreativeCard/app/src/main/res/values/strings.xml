@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hoyt Creative</string>
+    <string name="phoneNumber">(817) 123 &#8211; 4567</string>
+    <string name="email">josh@hoytcreative.com</string>
+    <string name="city">Carrollton, TX</string>
+    <string name="hours">Monday - Friday\n9:00 AM - 5:00 PM</string>
+    <string name="description">Here at Hoyt Creative Studio your site is our business. We offer a variety of branding, hosting, designing, and developing services for your website.\nWant a brand new look for your stagnant site? We can do that.\nWhatever you need, we can take care of, or if we can\'t, we can refer your to someone who can.</string>
+</resources>
